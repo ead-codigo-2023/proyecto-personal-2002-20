@@ -70,6 +70,12 @@
     display: none;
   }
   
+
+  .portada {
+    width: 1060px;
+    
+  }
+
   .Ideas {
     display: grid;
     grid-template-columns: 330px 330px 300px;
@@ -114,7 +120,7 @@
   
   
   .main-footer{
-    background: #C5914F;
+    background: #E1A375;
     color: white;
     padding: 30px 20px;
   }
@@ -133,7 +139,7 @@
   }
   
   .footer__input{
-    background: #AB7E45;
+    background: #E1A375;
     width: 100%;
     display: block;
     padding: 20px;
