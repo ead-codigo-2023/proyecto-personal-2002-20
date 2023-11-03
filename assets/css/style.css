@@ -288,6 +288,7 @@
     background-color: #4E4B5076;
     padding: 20px;
     min-height: 400px;
+    align-items: centers;
   }
 
   table{
