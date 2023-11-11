@@ -86,6 +86,56 @@ font-family: 'Prompt', sans-serif;*/
     display: none;
   }
 
+  /*hambuerguesa responsing menu*/
+
+  @media(max-width:991px){
+    .menu {
+      padding: 20px;
+    }
+
+    .menu .label {
+      display: initial;
+    }
+    .menu .navbar {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #E1A375;
+      display: none;
+    }
+    .menu .navbar ul li {
+      width: 100%;
+    }
+    .menu ul li a{
+      color: #e2e2e2;
+    }
+    #menu:checked ~ .navbar {
+      display: initial;
+    }
+    .logo {
+      display: none;
+    }
+
+    .submenu:hover #carrito {
+      min-width: 100%;
+    }
+    .header {
+      min-height: 0vh;
+    }
+    .header-content {
+      padding: 50px 0;
+      flex-direction: column;
+    }
+    .header-img{
+      display: none;
+    }
+    .header-txt {
+      flex-basis: 100%;
+      text-align: center;
+    }
+  }
+
    /*Pagina de productos*/
    .submenu .img-carrito{
     padding: 20px 0px;
@@ -135,7 +185,7 @@ font-family: 'Prompt', sans-serif;*/
     font-weight: 800;
     cursor: pointer;
   }
-
+/*productos*/
   .products {
     padding: 50px 0px;
     text-align: center;
@@ -145,7 +195,30 @@ font-family: 'Prompt', sans-serif;*/
     color:#111;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     font-size: 50px;
+    text-transform: 50px;
+    margin-bottom: 50px;
+  }
 
+  .product-content {
+    display: grid;
+    grid-template-columns: reapeat(3,1fr);
+    gap: 50px;
+  }
+
+  .product {
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  }
+
+  .product img {
+    width: 370px;
+    height: 250px;
+    margin-bottom: 20px;
+  }
+
+  .product h3{
+    font-size: 20px;
   }
 
 
