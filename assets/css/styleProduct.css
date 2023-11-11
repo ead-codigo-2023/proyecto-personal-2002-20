@@ -92,6 +92,7 @@ font-family: 'Prompt', sans-serif;*/
     width: 65px;
     height: 65px;
     flex-shrink: 0;
+    grid-template-columns: 345px 100px 100px;
     
    }
 
