@@ -16,7 +16,7 @@ font-family: 'Prompt', sans-serif;*/
   
   body {
     font-family: 'Prompt', sans-serif;
-    background: #fff;
+    background: #e2e2e2;
     color: #000;
     font-size: 15px;
     line-height: 1.5;
@@ -40,15 +40,28 @@ font-family: 'Prompt', sans-serif;*/
     max-width: 1200px;
     margin: 0 auto;
   }
+
+  .header {
+    display: flex;
+    align-items: center;
+    min-height: 20vh;
+    background-color: #FFF;
+    padding: 70px 0;
+  }
   
   /* Nav */
   .main-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 120px;
-    padding: 20px 0px;
+    padding: 30px ;
     font-size: 16px;
+    background-color: #e2e2e2;
   }
   
   .main-nav .logo {
@@ -76,6 +89,10 @@ font-family: 'Prompt', sans-serif;*/
     margin-left: 300px;
   }
   
+  .main-nav ul.main-menu {
+    flex: 1;
+    margin-left: 300px;
+  }
   .menu-btn {
     cursor: pointer;
     position: absolute;
@@ -84,10 +101,66 @@ font-family: 'Prompt', sans-serif;*/
     z-index: 2;
     display: none;
   }
-  
+
+  /*hambuerguesa responsing menu*/
+
+  @media(max-width:991px){
+    .menu {
+      padding: 20px;
+    }
+
+    .menu .label {
+      display: initial;
+    }
+    .menu .navbar {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #E1A375;
+      display: none;
+    }
+    .menu .navbar ul li {
+      width: 100%;
+    }
+    .menu ul li a{
+      color: #e2e2e2;
+    }
+    #menu:checked ~ .navbar {
+      display: initial;
+    }
+    .logo {
+      display: none;
+    }
+
+    .submenu:hover #carrito {
+      min-width: 100%;
+    }
+    .header {
+      min-height: 0vh;
+    }
+    .header-content {
+      padding: 50px 0;
+      flex-direction: column;
+    }
+    .header-img{
+      display: none;
+    }
+    .header-txt {
+      flex-basis: 100%;
+      text-align: center;
+    }
+  }
+
 /*Nosotros*/
 
-.nosotros h1{
+.Nosotros {
+  margin-bottom: 5px;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 20px;
+}
+.nosotros-intro {
   padding: 40px;
   margin-top: 20px;
 }
@@ -95,15 +168,20 @@ font-family: 'Prompt', sans-serif;*/
     margin-bottom: 20px;
     margin: 0 auto;
     max-width: 1000px;
+    padding: 20px;
   }
 
   .Ideas {
     display: grid;
-    grid-template-columns: 330px 330px 300px;
-    column-gap: 5rem;
-    padding: 30px;
+    grid-template-columns: 280px 300px 100px;
+    column-gap: 8rem;
+    padding: 20px;
     margin-bottom: 40px;
-    max-width: 1000px;
+    max-width: 800px;
+  }
+
+  ol.lista-1 {
+    list-style-type: circle;
   }
   
   
@@ -113,14 +191,13 @@ font-family: 'Prompt', sans-serif;*/
     margin-bottom: 5px;
     margin: 0 auto;
     max-width: 1000px;
-    font-size: 20px;
   }
   .home-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 28px;
     margin-bottom: 40px;
-    padding: 150px;
+    padding: 80px;
   }
   
   .home-cards img {

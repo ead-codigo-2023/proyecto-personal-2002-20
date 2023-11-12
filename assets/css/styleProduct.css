@@ -258,6 +258,7 @@ font-family: 'Prompt', sans-serif;*/
     padding: 7px 10px;
     border-color: #E1A375;
     border-radius: 5px;
+    box-sizing: border-box;
   }
 
   .Precios {
