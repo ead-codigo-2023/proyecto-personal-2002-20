@@ -37,10 +37,10 @@ font-family: 'Prompt', sans-serif;*/
   }
   
   .container {
-    width: 90%;
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
   }
+  
   /* Nav */
   .main-nav {
     display: flex;
@@ -109,6 +109,12 @@ font-family: 'Prompt', sans-serif;*/
   
   
   /* Home cards */
+  .Categorias{
+    margin-bottom: 5px;
+    margin: 0 auto;
+    max-width: 1000px;
+    font-size: 20px;
+  }
   .home-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

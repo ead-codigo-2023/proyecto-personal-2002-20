@@ -37,18 +37,29 @@ font-family: 'Prompt', sans-serif;*/
   }
   
   .container {
-    width: 90%;
     max-width: 1200px;
     margin: 0 auto;
   }
+  .header {
+    display: flex;
+    align-items: center;
+    min-height: 20vh;
+    background-color: #FFF;
+    padding: 70px 0;
+  }
+  
   
   /* Nav */
   .main-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 120px;
-    padding: 20px 0px;
+    padding: 30px ;
     font-size: 16px;
     background-color: #e2e2e2;
   }
@@ -231,10 +242,15 @@ font-family: 'Prompt', sans-serif;*/
   }
 
   /*Carro*/
+  .carro{
+    padding: 10px;
+    margin-top: 120px;
+  }
   .despacho {
     padding: 50px;
     display: grid;
     grid-template-columns: 700px 200px 100px;
+    margin-top: 50px;
   }
 
   .Direccion {
