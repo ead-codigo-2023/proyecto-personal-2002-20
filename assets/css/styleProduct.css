@@ -230,6 +230,24 @@ font-family: 'Prompt', sans-serif;*/
     font-size: 15px;
   }
 
+  /*Carro*/
+  .despacho {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 700px 200px 100px;
+  }
+
+  .Direccion {
+    display: inline-block;
+    padding: 7px 10px;
+    border-color: #E1A375;
+    border-radius: 5px;
+  }
+
+  .Precios {
+    margin-top: 10px;
+  }
+
 
 /*info final de pagina*/
   .main-footer{
