@@ -72,12 +72,23 @@ font-family: 'Prompt', sans-serif;*/
     display: flex;
   }
   
-  .main-nav ul li {
+  .main-nav .navbar ul li {
     padding: 10px 10px;
+    position: relative;
+    float: left;
   }
   
-  .main-nav ul li a {
+  .main-nav .navbar ul li a {
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px;
+    color: #262626;
+    display: block;
     padding-bottom: 1px;
+  }
+
+  #menu {
+    display: none;
   }
   
   .main-nav ul li a:hover {
@@ -176,7 +187,7 @@ font-family: 'Prompt', sans-serif;*/
     z-index:1;
     background-color: #4E4B5076;
     padding: 20px;
-    min-height: 400px;
+    min-width: 400px;
   }
 
   table{
@@ -196,6 +207,11 @@ font-family: 'Prompt', sans-serif;*/
     font-weight: 800;
     cursor: pointer;
   }
+
+  .container-products {
+    grid-template-columns: repeat(1,fr);
+    gap: 40px;
+  }
 /*productos*/
   .products {
     padding: 50px 0px;
@@ -210,10 +226,11 @@ font-family: 'Prompt', sans-serif;*/
     margin-bottom: 50px;
   }
 
-  .product-content {
+  .container-products {
     display: grid;
-    grid-template-columns: reapeat(3,1fr);
-    gap: 50px;
+    
+
+    
   }
 
   .product {
@@ -223,8 +240,8 @@ font-family: 'Prompt', sans-serif;*/
   }
 
   .product img {
-    width: 370px;
-    height: 250px;
+    width: 270px;
+    height: 170px;
     margin-bottom: 20px;
   }
 
