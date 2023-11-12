@@ -41,6 +41,7 @@ font-family: 'Prompt', sans-serif;*/
     max-width: 1200px;
     margin: 0 auto;
   }
+  
   /* Nav */
   .main-nav {
     display: flex;
@@ -165,7 +166,6 @@ font-family: 'Prompt', sans-serif;*/
     background-color: #4E4B5076;
     padding: 20px;
     min-height: 400px;
-    align-items: centers;
   }
 
   table{
@@ -193,9 +193,9 @@ font-family: 'Prompt', sans-serif;*/
 
   .productos h1{
     color:#111;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: 'Prompt', sans-serif;
     font-size: 50px;
-    text-transform: 50px;
+    text-transform: uppercase;
     margin-bottom: 50px;
   }
 
@@ -221,8 +221,17 @@ font-family: 'Prompt', sans-serif;*/
     font-size: 20px;
   }
 
+  .btn-2 {
+    display: inline-block;
+    padding: 7px 10px;
+    background-color: #E1A375;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 15px;
+  }
 
 
+/*info final de pagina*/
   .main-footer{
     background: #E1A375;
     color: white;
