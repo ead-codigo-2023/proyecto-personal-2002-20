@@ -218,6 +218,12 @@ font-family: 'Prompt', sans-serif;*/
     text-align: center;
   }
 
+  .tituloProducto h1 {
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
   .productos h1{
     color:#111;
     font-family: 'Prompt', sans-serif;
@@ -228,8 +234,6 @@ font-family: 'Prompt', sans-serif;*/
 
   .container-products {
     display: grid;
-    
-
     
   }
 
@@ -249,39 +253,43 @@ font-family: 'Prompt', sans-serif;*/
     font-size: 20px;
   }
 
+/*Carro*/
+
   .btn-2 {
     display: inline-block;
     padding: 7px 10px;
     background-color: #E1A375;
     color: #FFF;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 20px;
   }
 
-  /*Carro*/
   .carro{
-    padding: 10px;
-    margin-top: 120px;
+    padding: 30px;
+    margin-top: 20px;
   }
   .despacho {
     padding: 50px;
     display: grid;
     grid-template-columns: 700px 200px 100px;
     margin-top: 50px;
+    gap: 40px;
   }
 
   .Direccion {
     display: inline-block;
     padding: 7px 10px;
-    border-color: #E1A375;
-    border-radius: 5px;
+    border-radius: 6px;
     box-sizing: border-box;
+    width: 100%;
+    border: solid #E1A375 4px;
+    padding: 20px;
   }
 
   .Precios {
     margin-top: 10px;
+    padding: 20px;
   }
-
 
 /*info final de pagina*/
   .main-footer{

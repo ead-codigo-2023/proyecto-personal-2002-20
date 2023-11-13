@@ -80,9 +80,9 @@ font-family: 'Prompt', sans-serif;*/
   }
   
   .main-nav .navbar ul li a {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 300;
-    padding: 10px;
+    padding: 6px;
     color: #262626;
     display: block;
     padding-bottom: 1px;
@@ -97,10 +97,10 @@ font-family: 'Prompt', sans-serif;*/
   }
 
   /*ojo aqui, revisar mas tarde (menu responsing)*/
-  .menu label {
+  /*.menu label {
     cursor: pointer;
     display: none;
-  }
+  }*/
 
   .submenu {
     position: relative;
@@ -199,15 +199,61 @@ font-family: 'Prompt', sans-serif;*/
 
   .Ideas {
     display: grid;
-    grid-template-columns: 280px 300px 100px;
+    grid-template-columns: 260px 280px 100px;
     column-gap: 8rem;
     padding: 20px;
     margin-bottom: 40px;
-    max-width: 800px;
+    max-width: 700px;
+  }
+
+  .Mision {
+    box-sizing: content-box;
+    width: 100%;
+    background-color: #ccc;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  .Vision {
+    box-sizing: content-box;
+    width: 100%;
+    background-color: #ccc;
+    padding: 30px;
+    border-radius: 10px;
+  }
+
+  .Valores {
+    box-sizing: content-box;
+    width: 100%;
+    background-color: #ccc;
+    padding: 30px;
+    border-radius: 10px;
   }
 
   ol.lista-1 {
     list-style-type: circle;
+  }
+
+  @media(max-width:991px){
+    .Nosotros {
+      margin-bottom: 5px;
+      margin: 0 auto;
+      max-width: 1000px;
+      padding: 20px;
+    }
+    .nosotros-intro {
+      padding: 40px;
+      margin-top: 20px;
+    }
+      .resumen{
+        margin-bottom: 20px;
+        margin: 0 auto;
+        max-width: 1000px;
+        padding: 20px;
+      }
+      ol.lista-1 {
+        list-style-type: circle;
+      }
+
   }
   
   
