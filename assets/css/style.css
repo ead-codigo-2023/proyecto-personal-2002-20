@@ -254,6 +254,30 @@ font-family: 'Prompt', sans-serif;*/
         list-style-type: circle;
       }
 
+      .Mision {
+        box-sizing: content-box;
+        width: 100%;
+        background-color: #ccc;
+        padding: 30px;
+        border-radius: 10px;
+      }
+      .Vision {
+        box-sizing: content-box;
+        width: 100%;
+        background-color: #ccc;
+        padding: 30px;
+        border-radius: 10px;
+      }
+    
+      .Valores {
+        box-sizing: content-box;
+        width: 100%;
+        background-color: #ccc;
+        padding: 30px;
+        border-radius: 10px;
+      }
+      
+
   }
   
   
@@ -307,13 +331,14 @@ font-family: 'Prompt', sans-serif;*/
   /*Contactanos*/
 
   .contactanos h1{
-    margin-top: 40px;
+    margin-top: 5px;
     margin-bottom: 30px;
   }
   .contactanos {
     margin-bottom: 20px;
     margin: 0 auto;
     max-width: 950px;
+    padding: 30px;
 
   }
   .intro {
